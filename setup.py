@@ -15,7 +15,7 @@ def get_requirements()->List[str]:
 
 
 
-setup(name='Insurance',
+setup(name='insurance',
       version='0.0.1',
       description='Insurance Industry lavel project',
       author='Deep pratap',
