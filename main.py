@@ -1,6 +1,6 @@
 from insurance.logger import logging
 from insurance.exception import InsuranceException
-#from insurance.utils import get_collection_as_dataframe
+from insurance.utils import get_collection_as_dataframe
 import sys, os
 #from insurance.entity.config_entity import DataIngestionConfig
 #from insurance.entity import config_entity
@@ -9,21 +9,21 @@ import sys, os
 
 #from insurance.components.data_transformation import DataTransformation
 
-def test_logger_and_expection():
-    try:
-        logging.info("Starting the test_logger_and_exception")
-        result = 3/10
-        print(result)
-        logging.info("Stoping the test_logger_and_exception")
-    except Exception as e:
-        logging.debug(str(e))
-        raise InsuranceException(e, sys)
+#def test_logger_and_expection():
+    #try:
+        #logging.info("Starting the test_logger_and_exception")
+        #result = 3/10
+        #print(result)
+        #logging.info("Stoping the test_logger_and_exception")
+    #except Exception as e:
+        #logging.debug(str(e))
+        #raise InsuranceException(e, sys)
 
 if __name__=="__main__":
      try:
           #start_training_pipeline()
-          test_logger_and_expection()
-       # get_collection_as_dataframe(database_name ="INSURANCE", collection_name = 'INSURANCE_PROJECT')
+          #test_logger_and_expection()
+        get_collection_as_dataframe(database_name ="INSURANCE", collection_name = 'INSURANCE_PROJECT')
        #training_pipeline_config = config_entity.TrainingPipelineConfig()
        
       #data ingestion
