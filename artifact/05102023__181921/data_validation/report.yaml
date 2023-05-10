@@ -1,0 +1,77 @@
+data_drift_within_test_dataset:
+  Age:
+    pvalues: 0.7357741805176945
+    same_distribution: true
+  Annual_Premium:
+    pvalues: 0.2783972211461422
+    same_distribution: true
+  Driving_License:
+    pvalues: 0.0
+    same_distribution: false
+  Gender:
+    pvalues: 0.0
+    same_distribution: false
+  Policy_Sales_Channel:
+    pvalues: 0.8459559664844223
+    same_distribution: true
+  Previously_Insured:
+    pvalues: 0.9999999999985135
+    same_distribution: true
+  Region_Code:
+    pvalues: 0.9915224771839047
+    same_distribution: true
+  Response:
+    pvalues: 0.9999990855023593
+    same_distribution: true
+  Vehicle_Age:
+    pvalues: 0.9994770676534364
+    same_distribution: true
+  Vehicle_Damage:
+    pvalues: 0.9999977786755573
+    same_distribution: true
+  Vintage:
+    pvalues: 0.5544462850921572
+    same_distribution: true
+  id:
+    pvalues: 0.0
+    same_distribution: false
+data_drift_within_train_dataset:
+  Age:
+    pvalues: 0.9969549760652551
+    same_distribution: true
+  Annual_Premium:
+    pvalues: 0.999999869586938
+    same_distribution: true
+  Driving_License:
+    pvalues: 1.0
+    same_distribution: true
+  Gender:
+    pvalues: 1.0
+    same_distribution: true
+  Policy_Sales_Channel:
+    pvalues: 0.9997713003149554
+    same_distribution: true
+  Previously_Insured:
+    pvalues: 0.9999999959879294
+    same_distribution: true
+  Region_Code:
+    pvalues: 1.0
+    same_distribution: true
+  Response:
+    pvalues: 1.0
+    same_distribution: true
+  Vehicle_Age:
+    pvalues: 0.9999960984899254
+    same_distribution: true
+  Vehicle_Damage:
+    pvalues: 0.9999939996083187
+    same_distribution: true
+  Vintage:
+    pvalues: 0.999959170112378
+    same_distribution: true
+  id:
+    pvalues: 0.0
+    same_distribution: false
+missing_values_within_base_dataset: []
+missing_values_within_test_dataset: []
+missing_values_within_train_dataset: []
